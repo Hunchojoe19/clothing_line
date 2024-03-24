@@ -5,3 +5,11 @@
 .slider ::-webkit-slider {
   display: none;
 }
+#carts {
+  display: none;
+}
+#image:hover #carts {
+  display: flex;
+  left: 30px;
+  transition: 5s;
+}

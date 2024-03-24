@@ -18,10 +18,10 @@ const Hero = () => {
           </p>
         </div>
         <div className="w-full flex gap-x-8 justify-center items-center mt-8">
-          <button className="w-[202px] xs:w-[182px] h-[48px] xs:text-sm sm:text-lg bg-yellow-500 rounded-full font-montserat">
+          <button className="w-[202px] outline-none xs:w-[182px] h-[48px] xs:text-sm sm:text-lg bg-yellow-500 rounded-full font-montserat">
             For Men
           </button>
-          <button className="w-[202px] xs:w-[182px] h-[48px] xs:text-sm sm:text-lg bg-yellow-500 rounded-full font-montserat">
+          <button className="w-[202px] outline-none xs:w-[182px] h-[48px] xs:text-sm sm:text-lg bg-yellow-500 rounded-full font-montserat">
             For Women
           </button>
         </div>
@@ -37,10 +37,10 @@ const Hero = () => {
             Pay only for what suits you and what you like!
           </p>
           <div className="mt-8 flex gap-x-2 lg:gap-x-6">
-            <button className="w-[154px] h-[48px] lg:w-[178px] text-xl font-montserat bg-yellow-500 rounded-full">
+            <button className="w-[154px] outline-none h-[48px] lg:w-[178px] text-xl font-montserat bg-yellow-500 rounded-full">
               For Men
             </button>
-            <button className="w-[154px] h-[48px] lg:w-[178px] text-xl font-montserat border border-gray-500 rounded-full">
+            <button className="w-[154px] outline-none h-[48px] lg:w-[178px] text-xl font-montserat border border-gray-500 rounded-full">
               For Women
             </button>
           </div>

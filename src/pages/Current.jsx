@@ -46,7 +46,7 @@ const Current = () => {
         <h1 className="text-3xl font-montserat mt-8 ml-4 lg:ml-12 md:mt-12 md:text-4xl">
           Current
         </h1>
-        <div className="slider max-w-full flex mt-8 overflow-x-scroll scroll gap-x-10 whitespace-nowrap lg:overflow-hidden lg:gap-x-0">
+        <div className="slider max-w-full flex mt-8 overflow-x-scroll scroll gap-x-10 whitespace-nowrap lg:overflow-hidden lg:gap-x-0 mb-12">
           {imageData.map((item) => (
             <div className="w-full flex flex-col items-center gap-y-4">
               <img
